@@ -1,8 +1,8 @@
 {
-  "id": "multiapp-announcement",
+  "id": "multiapp-mobile-turbo-area-tracking",
   "valueType": "boolean",
   "defaultValue": "false",
-  "description": "Show the announcement banner in the mobile app",
+  "description": "Turbo area: tracking",
   "tags": ["mobile"],
   "environments": {
     "production": {

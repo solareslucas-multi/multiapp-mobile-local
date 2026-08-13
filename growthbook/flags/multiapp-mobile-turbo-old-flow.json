@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-old-flow",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Use the legacy (non-Turbo) flow in the mobile app",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-area-logistics",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Turbo area: logistics",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-area-easy-tap",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Turbo area: easy tap",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-area-quote",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Turbo area: quote",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

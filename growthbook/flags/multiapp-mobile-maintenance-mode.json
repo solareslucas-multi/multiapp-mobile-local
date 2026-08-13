@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-maintenance-mode",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Put the mobile app in maintenance mode",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

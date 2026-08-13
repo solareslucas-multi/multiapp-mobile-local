@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-area-checkout",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Turbo area: checkout",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

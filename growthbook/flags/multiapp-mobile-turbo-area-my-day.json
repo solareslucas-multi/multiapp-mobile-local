@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-mobile-turbo-area-my-day",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Turbo area: my day",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}
