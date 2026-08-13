@@ -1,0 +1,13 @@
+{
+  "id": "multiapp-announcement",
+  "valueType": "boolean",
+  "defaultValue": "false",
+  "description": "Show the announcement banner in the mobile app",
+  "tags": ["mobile"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": []
+    }
+  }
+}

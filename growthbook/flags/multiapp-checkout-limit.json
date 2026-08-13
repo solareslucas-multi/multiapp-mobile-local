@@ -1,0 +1,21 @@
+{
+  "id": "multiapp-checkout-limit",
+  "valueType": "number",
+  "defaultValue": "3",
+  "description": "Max items allowed in checkout; internal testers get a higher limit",
+  "tags": ["mobile", "checkout"],
+  "environments": {
+    "production": {
+      "enabled": true,
+      "rules": [
+        {
+          "type": "force",
+          "enabled": true,
+          "condition": "{\"id\":\"internal\"}",
+          "value": "10",
+          "description": "Internal testers bypass the limit"
+        }
+      ]
+    }
+  }
+}
